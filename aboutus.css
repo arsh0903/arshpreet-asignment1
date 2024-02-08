@@ -1,0 +1,23 @@
+
+h1{
+    text-align: center;
+   color: darkred;
+
+}   
+h2{
+    color: darkred;
+    text-align: center;
+}
+div img{
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+dt, li {
+    color: darkred;
+    font-weight: bold;
+    font-size: large; 
+}

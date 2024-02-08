@@ -1,0 +1,96 @@
+main{
+    background-image: url(21.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position:bottom ;
+}
+header{
+    text-align: center;
+    margin-bottom:  -15px;
+}
+
+h1{
+    color: darkred;
+    text-align: center;
+
+}
+h3{
+    text-align: right;
+    margin-right: 170px;
+    color: #fff;
+}
+h1{
+   text-align: center;
+   color: darkred;
+}
+ul {
+    list-style: none;
+    background: darkred;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+       
+}
+nav {
+    text-align: right;
+}
+ul li a {
+    display: block;
+    padding: 10px 10px ;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align:center;
+    font-size: 17px;
+    margin-right: 150px;
+}
+ul li ul.dropdown   {
+    display: block;
+}
+ul li ul.dropdown {
+    width: 150%;
+    background: darkred;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover {
+    background: darkred;
+}   
+ul li:hover ul.dropdown {
+    display: block;
+}
+div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    cursor: pointer;
+    margin: 10px;
+    margin-bottom: 50px;
+    margin-right: 180px;
+    transition: 400ms;
+    
+}
+div img:hover {
+    filter: brightness(1);
+    transform: scale(1.03);
+}
+
+.name {
+    text-align: left;
+    margin-bottom: -300px;
+    margin-left: -500px;
+    color: darkred;
+    font-weight: bold;
+    font-size: 20px;
+}
